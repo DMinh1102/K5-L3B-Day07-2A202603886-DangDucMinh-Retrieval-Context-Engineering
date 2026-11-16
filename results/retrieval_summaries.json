@@ -1,0 +1,79 @@
+{
+  "dense_dev": {
+    "n": 15,
+    "hit1": 9,
+    "hit1_rate": 0.6,
+    "hit3": 9,
+    "hit3_rate": 0.6,
+    "context_evidence_rate": 0.4666666666666667,
+    "avg_context_chars": 801.7333333333333,
+    "avg_latency_ms": 9.428913332521915,
+    "total_seconds": 0.14170539999031462
+  },
+  "bm25_dev": {
+    "n": 15,
+    "hit1": 11,
+    "hit1_rate": 0.7333333333333333,
+    "hit3": 12,
+    "hit3_rate": 0.8,
+    "context_evidence_rate": 0.6,
+    "avg_context_chars": 938.4,
+    "avg_latency_ms": 5.495013329588498,
+    "total_seconds": 0.0825780000013765
+  },
+  "hybrid_dev": {
+    "n": 15,
+    "hit1": 10,
+    "hit1_rate": 0.6666666666666666,
+    "hit3": 11,
+    "hit3_rate": 0.7333333333333333,
+    "context_evidence_rate": 0.5333333333333333,
+    "avg_context_chars": 743.0666666666667,
+    "avg_latency_ms": 17.08362666540779,
+    "total_seconds": 0.25652870000340044
+  },
+  "imp1_dev": {
+    "n": 15,
+    "hit1": 10,
+    "hit1_rate": 0.6666666666666666,
+    "hit3": 11,
+    "hit3_rate": 0.7333333333333333,
+    "context_evidence_rate": 0.6666666666666666,
+    "avg_context_chars": 1406.8666666666666,
+    "avg_latency_ms": 18.398839997826144,
+    "total_seconds": 0.2762627999763936
+  },
+  "imp2_dev": {
+    "n": 15,
+    "hit1": 10,
+    "hit1_rate": 0.6666666666666666,
+    "hit3": 12,
+    "hit3_rate": 0.8,
+    "context_evidence_rate": 0.6666666666666666,
+    "avg_context_chars": 1406.8666666666666,
+    "avg_latency_ms": 20.54173999737638,
+    "total_seconds": 0.3083971999876667
+  },
+  "dense_test": {
+    "n": 24,
+    "hit1": 4,
+    "hit1_rate": 0.16666666666666666,
+    "hit3": 8,
+    "hit3_rate": 0.3333333333333333,
+    "context_evidence_rate": 0.16666666666666666,
+    "avg_context_chars": 800.9583333333334,
+    "avg_latency_ms": 12.712066669337219,
+    "total_seconds": 0.30556629999773577
+  },
+  "hybrid_test": {
+    "n": 24,
+    "hit1": 7,
+    "hit1_rate": 0.2916666666666667,
+    "hit3": 12,
+    "hit3_rate": 0.5,
+    "context_evidence_rate": 0.5,
+    "avg_context_chars": 1511.4583333333333,
+    "avg_latency_ms": 26.017925001118176,
+    "total_seconds": 0.6249259999895003
+  }
+}

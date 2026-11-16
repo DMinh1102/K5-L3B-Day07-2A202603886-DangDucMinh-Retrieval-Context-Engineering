@@ -1,0 +1,1068 @@
+[
+  {
+    "query_id": "dev-01",
+    "split": "dev",
+    "question": "Chủ đề năm 2025 của Vinamilk được nêu trong thông điệp của Tổng Giám đốc là gì?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "Chủ đề của năm nay – “50 năm để tâm phụng sự”"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p079:c05",
+        "text": "Năm 2025, Vinamilk công bố đầy đủ, kịp thời, công khai và minh bạch các báo cáo tài chính quý, bán niên và cả năm tại <u>https://www.vinamilk.com.vn/investor/reports/financial</u>\n\nVui lòng xem nội dung đã trình bày tại mục “A.7 Giao dịch cổ phiếu Vinamilk của Người nội bộ của Công ty và người có liên quan của Người nội bộ”.\n\n- <u>(20/06/2025) | Vinamilk</u> Tất cả báo cáo tài chính quý của Công ty đều được soát xét",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 79,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 419
+        },
+        "score": 0.7120965123176575,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p075:c02",
+        "text": "Trên cơ sở thống nhất ý kiến với Ban chấp hành Công đoàn cơ sở tại Công ty, Tổng Giám đốc đã ký ban hành bản điều chỉnh của Nội qui lao động vào ngày 16/09/2024 và đã được công bố công khai trên hệ thống thông tin nội bộ của Vinamilk để tất cả nhân viên có thể đọc tại mọi thời gian. Nội dung chính của Nội qui lao động quy định chi tiết các vấn đề sau đây:\n\nCông ty có cung cấp kênh thông tin liên lạc qua trang web và trong Báo cáo thường niên này của Công ty để các bên liên quan (ví dụ: khách hàng, nhà cung cấp, công chúng, v.v.) có thể sử dụng để nêu lên mối quan ngại và/hoặc khiếu nại về khả năng vi phạm quyền của họ. Cụ thể như sau:\n\n- Thời gian làm việc và thời gian nghỉ ngơi;",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 75,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 1,
+          "char_count": 688
+        },
+        "score": 0.663815975189209,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p006:c01",
+        "text": "Thông Tin Chung\n\nBáo cáo thường niên Vinamilk 2025\n\n10 - 11\n\n50 Năm Để Tâm Phụng Sự\n\n**12**\n\n**21**\n\nLịch sử hình thành Thông tin cổ phần và cổ đông\n\n**Thông tin** <u>01</u> **chung**\n\n**24**\n\n**14**\n\nMô hình và chiến lược kinh doanh Sơ đồ tổ chức và quản lý của công ty của Vinamilk\n\n**26**\n\n15\n\nChất Vinamilk\n\nCấu trúc tập đoàn Vinamilk\n\n16\n\nCác bên liên quan\n\n**28**\n\n17\n\nChiến lược kinh doanh năm 2022 - 2026\n\nNhân sự chủ chốt\n\n**19**\n\nTóm tắt thông tin tài chính năm 2021 - 2025",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "Báo cáo thường niên Vinamilk 2025",
+          "type": "text",
+          "image_count": 0,
+          "char_count": 483
+        },
+        "score": 0.6586416959762573,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p079:c05 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 79]\nNăm 2025, Vinamilk công bố đầy đủ, kịp thời, công khai và minh bạch các báo cáo tài chính quý, bán niên và cả năm tại <u>https://www.vinamilk.com.vn/investor/reports/financial</u>\n\nVui lòng xem nội dung đã trình bày tại mục “A.7 Giao dịch cổ phiếu Vinamilk của Người nội bộ của Công ty và người có liên quan của Người nội bộ”.\n\n- <u>(20/06/2025) | Vinamilk</u> Tất cả báo cáo tài chính quý của Công ty đều được soát xét\n\n[vnm-2025:p006:c01 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 6]\nThông Tin Chung\n\nBáo cáo thường niên Vinamilk 2025\n\n10 - 11\n\n50 Năm Để Tâm Phụng Sự\n\n**12**\n\n**21**\n\nLịch sử hình thành Thông tin cổ phần và cổ đông\n\n**Thông tin** <u>01</u> **chung**\n\n**24**\n\n**14**\n\nMô hình và chiến lược kinh doanh Sơ đồ tổ chức và quản lý của công ty của Vinamilk\n\n**26**\n\n15\n\nChất Vinamilk\n\nCấu trúc tập đoàn Vinamilk\n\n16\n\nCác bên liên quan\n\n**28**\n\n17\n\nChiến lược kinh doanh năm 2022 - 2026\n\nNhân sự chủ chốt\n\n**19**\n\nTóm tắt thông tin tài chính năm 2021 - 2025",
+    "context_ids": [
+      "vnm-2025:p079:c05",
+      "vnm-2025:p006:c01"
+    ],
+    "context_chars": 1083,
+    "elapsed_ms": 9.660399984568357,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-02",
+    "split": "dev",
+    "question": "Doanh thu từ thị trường nước ngoài chiếm bao nhiêu phần trăm tổng doanh thu của Vinamilk trong năm 2025?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "chiếm 20% tổng doanh thu của năm 2025"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p005:c04",
+        "text": "Doanh thu từ thị trường nước ngoài, bao gồm hoạt động xuất khẩu, chiếm 20% tổng doanh thu của năm 2025 và tiếp tục ghi nhận mức tăng trưởng 15% so với cùng kỳ năm trước. Các sản phẩm của Vinamilk đã đạt được các chứng nhận quốc tế uy tín như Bureau Veritas, Intertek và TUV, qua đó đáp ứng yêu cầu kiểm định nghiêm ngặt tại những thị trường khó tính như Mỹ, Nhật Bản, EU và Trung Đông. Nhờ vào chất lượng sản phẩm đạt chuẩn quốc tế cùng uy tín thương hiệu, Vinamilk đã duy trì và mở rộng mạng lưới xuất khẩu tới 65 thị trường trên toàn cầu.\n\n##### Triết lý “Để tâm Phụng sự”: Kim chỉ nam cho kỷ nguyên mới.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 606
+        },
+        "score": 0.8573107123374939,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p047:c07",
+        "text": "Bước sang giai đoạn phát triển mới, Vinamilk tiếp tục theo đuổi chiến lược phát triển thị trường nước ngoài theo hướng chọn lọc, hiệu quả và bền vững, gắn tăng trưởng tài chính với cam kết lâu dài về chất lượng, trách nhiệm và sự tin cậy. Với nền tảng được xây dựng trong 50 năm Để Tâm Phụng Sự, hoạt động xuất khẩu được kỳ vọng sẽ tiếp tục đóng vai trò quan trọng trong việc củng cố vị thế của Vinamilk và tạo dựng giá trị bền vững cho các bên liên quan.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 47,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 5,
+          "char_count": 455
+        },
+        "score": 0.7259171605110168,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p047:c02",
+        "text": "Trên hành trình đó, hoạt động xuất khẩu và phát triển thị trường nước ngoài không chỉ là động lực tăng trưởng về mặt tài chính, mà còn là minh chứng cho cam kết lâu dài của Vinamilk trong việc mang các giải pháp dinh dưỡng chất lượng cao của Việt Nam đến với người tiêu dùng toàn cầu một cách bền vững và có trách nhiệm.\n\nNăm 2025 ghi nhận kết quả tăng trưởng tích cực của mảng thị trường nước ngoài\n\nDoanh thu xuất khẩu thương mại đạt\n\n**6.546 16,5%**\n\ntỷ đồng so với cùng kỳ\n\nTăng trưởng\n\nTổng số lượng container xuất khẩu đạt\n\n## **4.200**\n\nTEUs",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 47,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 5,
+          "char_count": 548
+        },
+        "score": 0.7141005396842957,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p005:c04 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 5]\nDoanh thu từ thị trường nước ngoài, bao gồm hoạt động xuất khẩu, chiếm 20% tổng doanh thu của năm 2025 và tiếp tục ghi nhận mức tăng trưởng 15% so với cùng kỳ năm trước. Các sản phẩm của Vinamilk đã đạt được các chứng nhận quốc tế uy tín như Bureau Veritas, Intertek và TUV, qua đó đáp ứng yêu cầu kiểm định nghiêm ngặt tại những thị trường khó tính như Mỹ, Nhật Bản, EU và Trung Đông. Nhờ vào chất lượng sản phẩm đạt chuẩn quốc tế cùng uy tín thương hiệu, Vinamilk đã duy trì và mở rộng mạng lưới xuất khẩu tới 65 thị trường trên toàn cầu.\n\n##### Triết lý “Để tâm Phụng sự”: Kim chỉ nam cho kỷ nguyên mới.",
+    "context_ids": [
+      "vnm-2025:p005:c04"
+    ],
+    "context_chars": 695,
+    "elapsed_ms": 11.476000014226884,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-03",
+    "split": "dev",
+    "question": "Năm nào đánh dấu kỷ niệm 50 năm thành lập Vinamilk?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "Năm 2026 đánh dấu kỷ niệm 50 năm thành lập"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p005:c07",
+        "text": "Năm 2026 đánh dấu kỷ niệm 50 năm thành lập và đồng Mặc dù còn nhiều thách thức phía trước, với nền tảng vững thời mở ra một giai đoạn phát triển mới đối với Vinamilk. chắc được xây dựng trong suốt hơn nửa thế kỷ cùng động Trọng tâm chiến lược là nâng cao nền tảng tăng trưởng cả lực tăng trưởng hiện hữu, chúng tôi tin tưởng vào sự phát về chất lượng và số lượng. Thay vì chỉ chú trọng vào các triển bền vững và lâu dài của Vinamilk. chỉ tiêu ngắn hạn, Vinamilk sẽ tập trung tối ưu hóa bốn trụ cột chiến lược trong giai đoạn 2022-2026, chuyển hóa các Thay mặt Ban Điều hành, tôi xin gửi lời tri ân sâu sắc đến kết quả ban đầu thành động lực cho sự phát triển bền vững Quý Cổ đông, Khách hàng, Đối tác đã luôn đồng hành cùng trong dài hạn. Đà tăng trưởng ghi nhận từ cuối năm 2025 chúng tôi. Đặc biệt, xin cảm ơn gần 10.000 cán bộ công được coi là tiền đề cho một chu kỳ hiện đại hóa và phát nhân viên – những người đã và đang ngày đêm “để tâm” triển ổn định, đồng thời tiếp tục khẳng định bản sắc riêng trong từng công việc nhỏ nhất để cùng nhau “phụng sự” của Vinamilk. cho một cuộc sống tốt đẹp hơn.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 1101
+        },
+        "score": 0.7465939521789551,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p046:c09",
+        "text": "Những dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 chính là bước chuẩn bị quan trọng để Vinamilk sẵn sàng bước vào cột mốc lịch sử kỷ niệm 50 năm thành lập. Mọi nỗ lực nâng tầm danh mục sản phẩm cao cấp đến việc hiện đại hóa hệ thống phân phối đều tập trung vào mục tiêu: phụng sự sức khỏe và niềm tin vủa người tiêu dùng bằng tất cả tâm huyết. Thành quả của năm 2025 không chỉ khẳng định sức mạnh nội tại mà còn tạo đà vững chắc để Vinamilk tiếp tục viết tiếp hành trình nửa thế kỷ kiên tạo giá trị, giữ vững vị thế thưởng hiệu dinh dưỡng hàng đầu trong lòng mỗi gia đình Việt.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 584
+        },
+        "score": 0.6775473356246948,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p094:c02",
+        "text": "Kết thúc năm 2025, Vinamilk chạm mốc “50 Năm Để Tâm Phụng Sự – 50 Years Delivering with Care”, đánh dấu hành trình nửa thế kỷ gắn bó với người tiêu dùng Việt Nam và thị trường quốc tế. Để tiếp tục phụng sự bền vững, Vinamilk thiết lập một hệ thống quản trị cho phép chủ động nhận diện – đánh giá – ứng phó – giám sát rủi ro, qua đó tạo ra cơ chế phòng vệ đa tần cho các trụ cột về chất lượng sản phẩm, an toàn vận hành, uy tín thương hiệu và giá trị tổ chức. Quản trị rủi ro vì thế không chỉ là hoạt động kiểm soát, mà còn là cam kết của Vinamilk để góp phần phụng sự và gắn kết với người tiêu dùng, người lao động, cổ đông, đối tác và cộng đồng trong dài hạn.\n\n##### Chặng đường phát triển",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 94,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 0,
+          "char_count": 690
+        },
+        "score": 0.6774348020553589,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p005:c07 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 5]\nNăm 2026 đánh dấu kỷ niệm 50 năm thành lập và đồng Mặc dù còn nhiều thách thức phía trước, với nền tảng vững thời mở ra một giai đoạn phát triển mới đối với Vinamilk. chắc được xây dựng trong suốt hơn nửa thế kỷ cùng động Trọng tâm chiến lược là nâng cao nền tảng tăng trưởng cả lực tăng trưởng hiện hữu, chúng tôi tin tưởng vào sự phát về chất lượng và số lượng. Thay vì chỉ chú trọng vào các triển bền vững và lâu dài của Vinamilk. chỉ tiêu ngắn hạn, Vinamilk sẽ tập trung tối ưu hóa bốn trụ cột chiến lược trong giai đoạn 2022-2026, chuyển hóa các Thay mặt Ban Điều hành, tôi xin gửi lời tri ân sâu sắc đến kết quả ban đầu thành động lực cho sự phát triển bền vững Quý Cổ đông, Khách hàng, Đối tác đã luôn đồng hành cùng trong dài hạn. Đà tăng trưởng ghi nhận từ cuối năm 2025 chúng tôi. Đặc biệt, xin cảm ơn gần 10.000 cán bộ công được coi là tiền đề cho một chu kỳ hiện đại hóa và phát nhân viên – những người đã và đang ngày đêm “để tâm” triển ổn định, đồng thời tiếp tục khẳng định bản sắc riêng trong từng công việc nhỏ nhất để cùng nhau “phụng sự” của Vinamilk. cho một cuộc sống tốt đẹp hơn.",
+    "context_ids": [
+      "vnm-2025:p005:c07"
+    ],
+    "context_chars": 1190,
+    "elapsed_ms": 8.554100000765175,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-04",
+    "split": "dev",
+    "question": "Trong danh mục từ viết tắt của Vinamilk, ADN có ý nghĩa là gì?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 3,
+        "evidence": "Bộ giá trị cốt lõi văn hóa doanh nghiệp mới, tập trung vào trách nhiệm, sự chủ động"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p003:c02",
+        "text": "|Tên viết tắt|Ý nghĩa|\n|---|---|\n|ASEAN|Các nước Đông Nam Á|\n|ADN|Bộ giá trị cốt lõi văn hóa doanh nghiệp mới, tập trung vào trách nhiệm, sự chủ động và<br>hiệu suất cao|\n|BCTC|Báo cáo tài chính|\n|BĐH|Ban điều hành|\n|CBTT|Công bố thông tin|\n|CCU|Chuỗi cung ứng|\n|CHDCND|Cộng hòa Dân chủ Nhân dân|\n|CLP|Dự án Nhãn sạch (Clean Label Project)|\n|CNG|Khí thiên nhiên nén|\n|CNTT|Công nghệ thông tin|\n|CTCP|Công ty cổ phần|\n|DCP|Chương trình đào tạo chuyên sâu Thành viên HĐQT|\n|ĐHĐCĐ|Đại hội đồng cổ đông|\n|EMS|Bộ giải pháp kinh doanh điện tử (E-Business Suite)|\n|ESG|Môi trường - Xã hội - Quản trị doanh nghiệp (Environment - Social - Governance)|\n|EU|Liên minh Châu Âu (European Union)|\n|FMCG|Ngành hàng tiêu dùng nhanh|\n|FSSC|Chứng nhận hệ thống an toàn thực phẩm (Food Safety System Certification)|\n|GĐĐH|Giám đốc điều hành|\n|GF|Green Farm|\n|GlobalG.A.P|Tiêu chuẩn Toàn cầu về Thực hành nông nghiệp tốt toàn cầu|\n|HĐQT|Hội đồng Quản trị|\n|HORECA|Khách sạn, Nhà hàng, Café (Hotel, Restaurant, Cafeteria)|\n|HOSE|Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh|\n|IFRS|Chuẩn mực báo cáo tài chính quốc tế|\n|IR|Quan hệ Nhà đầu tư (Investor Relations)|\n|JVL|Công ty TNHH Chăn nuôi Việt Nhật|\n|KNK|Khí nhà kính|\n|KSNB|Kiểm soát nội bộ|\n|KSX|Khối Sản xuất|\n|KTNB|Kiểm toán nội bộ|\n|LNST|Lợi nhuận sau thuế|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1295
+        },
+        "score": 0.33298182487487793,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p080:c07",
+        "text": "|D.1 T|rách nhiệm và nhiệm vụ|của HĐQT||\n|---|---|---|---|\n|Đã đ<br>tại tr<br>D.1.1<br>tài liệ|ược trình bày tại phần đầu<br>ang 126.<br>Công ty cần tuyên bố chín<br>u về QTCT.|của báo cáo q<br>h sách QTCT|uản trị này<br>Công ty luôn công bố danh sách đầy đủ các nghị quyết của<br>HĐQT ban hành trong năm. Theo đó, HĐQT đã ban hành 17<br>nghị quyết trong năm 2025 như sau:<br>và công bố<br>D.1.2 Công bố nghị quyết của HĐQT trong năm.|\n|Stt|Số Nghị quyết|Ngày|Nội dung|\n|1|01/NQ-CTS.HĐQT/2025|04/02/2025|Tổ chức ĐHĐCĐ thường niên 2025.|\n|2|02/NQ-CTS.HĐQT/2025|11/02/2025|Thưởng cho Tổng Giám đốc và các Giám đốc Điều hành theo kết quả<br>hoạt động năm 2024.|\n|3|03/NQ-CTS.HĐQT/2025|28/02/2025|Thù lao năm 2024 còn lại của HĐQT.|\n|4|04/NQ-CTS.HĐQT/2025|25/03/2025|Chuyển nhượng toàn bộ vốn đầu tư của Vinamilk tại Công ty Del Monte<br>– Vinamilk Dairy Philippines Inc và chấm dứt dự án đầu tư của Công ty<br>tại Philippines.|\n|5|05/NQ-CTS.HĐQT/2025|08/04/2025|Dự án dây chuyền sản xuất sữa đặc có đường (hộp giấy 1 lít và 380gr)<br>tại Nhà máy sữa Việt Nam.|\n|6|06/NQ-CTS.HĐQT/2025|29/04/2025|Chi trả cổ tức còn lại của năm 2024.|\n|7|07/NQ-CTS.HĐQT/2025|05/05/2025|Thay đổi thành viên các Ủy ban thuộc HĐQT.|\n|8|08/NQ-CTS.HĐQT/2025|20/05/2025|Lựa chọn đơn vị kiểm toán độc lập năm 2025.|\n|9|09/NQ-CTS.HĐQT/2025|30/05/2025|Điều chỉnh Dự án đầu tư Trung Tâm Các Trang Trại Chăn Nuôi Bò Sữa<br>Chất Lượng Cao của Công ty TNHH Một thành viên Bò sữa Thống Nhất<br>Thanh Hóa.|\n|10|10/NQ-CTS.HĐQT/2025|30/07/2025|Điều chỉnh sơ đồ tổ chức Khối Hành chính - Nhân sự - Đối ngoại.|\n|11|11/NQ-CTS.HĐQT/2025|06/08/2025|Dự án Đầu tư mở rộng Nhà máy Sữa Việt Nam.|\n|12|12/NQ-CTS.HĐQT/2025|10/09/2025|Thực hành theo Thẻ điểm QTCT ASEAN.|\n|13|13/NQ-CTS.HĐQT/2025|01/10/2025|Chi trả cổ tức còn lại của năm 2024 và tạm ứng đợt 1/2025.|\n|14|14/NQ-CTS.HĐQT/2025|09/12/2025|Thông qua bản Quy chế CBTT điều chỉnh.|\n|15|15/NQ-CTS.HĐQT/2025|28/11/2025|Thông qua mua quyền phát hành cổ phiếu của Công ty Cổ phần Chế<br>biến Dừa Á Châu.|\n|16|16/NQ-CTS.HĐQT/2025|20/12/2025|Thông qua danh sách hạn mức tín dụng vay 2026.|\n|17|17/NQ-CTS.HĐQT/2025|31/12/2025|Thông qua đơn từ nhiệm của Thư ký Công ty (Ông Đồng Quang Trung).|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 80,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 2194
+        },
+        "score": 0.28387996554374695,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p088:c02",
+        "text": "|Stt|Họ và tên|Chức vụ chuyên môn tại Vinamilk|\n|---|---|---|\n|1|Ông Lê Đức Anh|Trưởng ban Hợp tác đầu tư|\n|2|Ông Trần Chí Sơn|Trưởng Bộ phận Tài chính<br>Người phụ trách Quản trị Công ty|\n|3|Bà Lê Quang Thanh Trúc|Giám đốc Quản lý hoạt động các đơn vị thành viên|\n|4|Ông Đồng Quang Trung<br>(Đến 31/12/2025)|Trưởng ban Quan hệ nhà đầu tư (IR)|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 88,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 1,
+          "char_count": 344
+        },
+        "score": 0.25968021154403687,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p088:c02 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 88]\n|Stt|Họ và tên|Chức vụ chuyên môn tại Vinamilk|\n|---|---|---|\n|1|Ông Lê Đức Anh|Trưởng ban Hợp tác đầu tư|\n|2|Ông Trần Chí Sơn|Trưởng Bộ phận Tài chính<br>Người phụ trách Quản trị Công ty|\n|3|Bà Lê Quang Thanh Trúc|Giám đốc Quản lý hoạt động các đơn vị thành viên|\n|4|Ông Đồng Quang Trung<br>(Đến 31/12/2025)|Trưởng ban Quan hệ nhà đầu tư (IR)|",
+    "context_ids": [
+      "vnm-2025:p088:c02"
+    ],
+    "context_chars": 434,
+    "elapsed_ms": 7.932200009236112,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-05",
+    "split": "dev",
+    "question": "Trong danh mục từ viết tắt, MCM viết tắt cho công ty nào?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 3,
+        "evidence": "Công ty Cổ phần Giống Bò sữa Mộc Châu"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p003:c03",
+        "text": "|Tên viết tắt|Ý nghĩa|\n|---|---|\n|MCM|Công ty Cổ phần Giống Bò sữa Mộc Châu|\n|MTV|Một thành viên|\n|Net Zero|Phát thải ròng bằng \"0\"|\n|NGK|Nước giải khát|\n|NQ|Nghị quyết|\n|OEE|Năng suất hoạt động của máy móc thiết bị|\n|PAS|Tiêu chuẩn công khai (Publicly Available Specification)|\n|PTBV|Phát triển bền vững|\n|QLRR|Quản lý rủi ro|\n|QTCT|Quản trị công ty|\n|R&D|Nghiên cứu và Phát triển|\n|ROE|LNST/Vốn chủ sở hữu|\n|ROA|LNST/Tổng tài sản|\n|SCIC|Tổng công ty Đầu tư và kinh doanh vốn Nhà Nước|\n|SGDCK|Sở Giao dịch Chứng khoán|\n|STNL|Sữa tươi nguyên liệu|\n|SXKD|Sản xuất kinh doanh|\n|TATX|Thức ăn thô xanh|\n|TEU|Đơn vị chuẩn dùng trong vận tải container|\n|TGĐ|Tổng Giám đốc|\n|TNHH|Trách nhiệm hữu hạn|\n|Tp.HCM|Thành phố Hồ Chí Minh|\n|TPM|Hệ thống bảo trì toàn diện|\n|TTBS|Trang trại bò sữa|\n|UBCKNN|Ủy ban Chứng khoán Nhà nước|\n|UBCL|Ủy ban Chiến lược|\n|UBKT|Ủy ban Kiểm toán|\n|UBLT|Ủy ban Lương thưởng|\n|UBNS|Ủy ban Nhân sự|\n|UVTW|Ủy viên Trung Ương|\n|VAS|Chuẩn mực kế toán Việt Nam (Vietnam Accounting Standards)|\n|Vinamilk/ VNM|Công ty Cổ phần Sữa Việt Nam|\n|VIOD|Viện Thành viên HĐQT Việt Nam|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1089
+        },
+        "score": 0.5109531879425049,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p094:c08",
+        "text": "|Lớp|Thành phần|Vai trò, trách nhiệm|\n|---|---|---|\n|Xác lập|Hội đồng quản trị (“HĐQT”)<br>Ủy ban Kiểm toán (UBKT)|HĐQT chịu trách nhiệm cuối cùng trước cổ đông về<br>phương pháp tiếp cận và định hướng tổng thể trong quản<br>trị rủi ro của Công ty.|\n|||UBKT, với vai trò là ủy ban chuyên trách về quản lý rủi ro,<br>hỗ trợ Hội đồng Quản trị trong việc giám sát tính hiệu quả<br>của hệ thống kiểm soát nội bộ và quản lý rủi ro. UBKT<br>bảo đảm rằng các cơ chế nhận diện, đánh giá, ứng phó<br>và giám sát rủi ro được vận hành nhất quán, minh bạch và<br>phù hợp với khẩu vị rủi ro đã được phê duyệt.|\n|Quản lý|Hội đồng Quản lý rủi ro<br>Phòng Quản lý Hệ thống – Rủi ro<br>& Pháp lý.|Xây dựng và giám sát việc thực hiện toàn bộ quy trình<br>quản lý rủi ro của Công ty; theo dõi các rủi ro trọng yếu và<br>biện pháp kiểm soát liên quan, từ đó đưa ra các khuyến<br>nghị kịp thời đến HĐQT và UBKT.|\n|Thực thi|Chủ sở hữu rủi ro<br>Chuyên gia ngành|Là những quản lý cấp cao, được phân công trực tiếp quản<br>lý những rủi ro trong lĩnh vực phụ trách, thực hiện việc<br>nhận diện, đánh giá, ứng phó, giám sát và báo cáo rủi ro.|\n|Đảm bảo|Kiểm toán nội bộ|Đánh giá mức độ tuân thủ, hiệu quả của hệ thống quản<br>lý rủi ro và kiểm soát nội bộ, góp phần cung cấp sự đảm<br>bảo hợp lý cho Hội đồng Quản trị và Ủy ban Kiểm toán về<br>khả năng đạt được các mục tiêu của Công ty.|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 94,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1362
+        },
+        "score": 0.40547773241996765,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p003:c02",
+        "text": "|Tên viết tắt|Ý nghĩa|\n|---|---|\n|ASEAN|Các nước Đông Nam Á|\n|ADN|Bộ giá trị cốt lõi văn hóa doanh nghiệp mới, tập trung vào trách nhiệm, sự chủ động và<br>hiệu suất cao|\n|BCTC|Báo cáo tài chính|\n|BĐH|Ban điều hành|\n|CBTT|Công bố thông tin|\n|CCU|Chuỗi cung ứng|\n|CHDCND|Cộng hòa Dân chủ Nhân dân|\n|CLP|Dự án Nhãn sạch (Clean Label Project)|\n|CNG|Khí thiên nhiên nén|\n|CNTT|Công nghệ thông tin|\n|CTCP|Công ty cổ phần|\n|DCP|Chương trình đào tạo chuyên sâu Thành viên HĐQT|\n|ĐHĐCĐ|Đại hội đồng cổ đông|\n|EMS|Bộ giải pháp kinh doanh điện tử (E-Business Suite)|\n|ESG|Môi trường - Xã hội - Quản trị doanh nghiệp (Environment - Social - Governance)|\n|EU|Liên minh Châu Âu (European Union)|\n|FMCG|Ngành hàng tiêu dùng nhanh|\n|FSSC|Chứng nhận hệ thống an toàn thực phẩm (Food Safety System Certification)|\n|GĐĐH|Giám đốc điều hành|\n|GF|Green Farm|\n|GlobalG.A.P|Tiêu chuẩn Toàn cầu về Thực hành nông nghiệp tốt toàn cầu|\n|HĐQT|Hội đồng Quản trị|\n|HORECA|Khách sạn, Nhà hàng, Café (Hotel, Restaurant, Cafeteria)|\n|HOSE|Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh|\n|IFRS|Chuẩn mực báo cáo tài chính quốc tế|\n|IR|Quan hệ Nhà đầu tư (Investor Relations)|\n|JVL|Công ty TNHH Chăn nuôi Việt Nhật|\n|KNK|Khí nhà kính|\n|KSNB|Kiểm soát nội bộ|\n|KSX|Khối Sản xuất|\n|KTNB|Kiểm toán nội bộ|\n|LNST|Lợi nhuận sau thuế|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1295
+        },
+        "score": 0.3890911936759949,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p003:c03 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 3]\n|Tên viết tắt|Ý nghĩa|\n|---|---|\n|MCM|Công ty Cổ phần Giống Bò sữa Mộc Châu|\n|MTV|Một thành viên|\n|Net Zero|Phát thải ròng bằng \"0\"|\n|NGK|Nước giải khát|\n|NQ|Nghị quyết|\n|OEE|Năng suất hoạt động của máy móc thiết bị|\n|PAS|Tiêu chuẩn công khai (Publicly Available Specification)|\n|PTBV|Phát triển bền vững|\n|QLRR|Quản lý rủi ro|\n|QTCT|Quản trị công ty|\n|R&D|Nghiên cứu và Phát triển|\n|ROE|LNST/Vốn chủ sở hữu|\n|ROA|LNST/Tổng tài sản|\n|SCIC|Tổng công ty Đầu tư và kinh doanh vốn Nhà Nước|\n|SGDCK|Sở Giao dịch Chứng khoán|\n|STNL|Sữa tươi nguyên liệu|\n|SXKD|Sản xuất kinh doanh|\n|TATX|Thức ăn thô xanh|\n|TEU|Đơn vị chuẩn dùng trong vận tải container|\n|TGĐ|Tổng Giám đốc|\n|TNHH|Trách nhiệm hữu hạn|\n|Tp.HCM|Thành phố Hồ Chí Minh|\n|TPM|Hệ thống bảo trì toàn diện|\n|TTBS|Trang trại bò sữa|\n|UBCKNN|Ủy ban Chứng khoán Nhà nước|\n|UBCL|Ủy ban Chiến lược|\n|UBKT|Ủy ban Kiểm toán|\n|UBLT|Ủy ban Lương thưởng|\n|UBNS|Ủy ban Nhân sự|\n|UVTW|Ủy viên Trung Ương|\n|VAS|Chuẩn mực kế toán Việt Nam (Vietnam Accounting Standards)|\n|Vinamilk/ VNM|Công ty Cổ phần Sữa Việt Nam|\n|VIOD|Viện Thành viên HĐQT Việt Nam|",
+    "context_ids": [
+      "vnm-2025:p003:c03"
+    ],
+    "context_chars": 1178,
+    "elapsed_ms": 7.288699998753145,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-06",
+    "split": "dev",
+    "question": "Vinamilk cam kết thực hiện chương trình Net Zero đến năm nào với lộ trình cụ thể cho từng giai đoạn?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 4,
+        "evidence": "Vinamilk cam kết thực hiện chương trình Net Zero 2050"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p004:c04",
+        "text": "- Phát triển bền vững (ESG): Từ cam kết đến hành động. Vinamilk cam kết thực hiện chương trình Net Zero 2050 với lộ trình cụ thể cho từng giai đoạn. Vinamilk là doanh nghiệp sữa đầu tiên tại Việt Nam có trang trại và nhà máy được chứng nhận trung hòa carbon theo chuẩn PAS 2060:2014. Các kết quả này tiếp tục được mở rộng trong 2025–2026 và việc thực thi chiến lược phát triển bền vững sẽ được áp dụng theo các thông lệ tốt hiện hành.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 4,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 434
+        },
+        "score": 0.7343706488609314,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p010:c03",
+        "text": "- Cam kết thực hiện lộ trình tiến đến Net Zero vào năm 2050: Tiên phong về phát triển bền vững, Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính (Phạm vi 1 và 2) vào 2027, 63% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.\n\nTổng tài sản (tỷ đồng)\n\n##### Doanh thu thuần (tỷ đồng)\n\n2021 60.919 2022 59.956 2023 60.369 2024 61.783 2025 63.646\n\n- 2021 53.332 2022 48.483 2023 52.673 2024 55.049 2025 53.312\n\nLợi nhuận từ HĐKD (tỷ đồng)\n\nLợi nhuận trước thuế (tỷ đồng)\n\n- 2021 12.728 2022 10.491 2023 10.904 2024 11.594 2025 11.660\n\n2021 12.922 2022 10.496 2023 10.968 2024 11.600 2025 11.650",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 10,
+        "metadata": {
+          "section": "Thông Tin Chung",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 611
+        },
+        "score": 0.6992287635803223,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p058:c03",
+        "text": "Năm 2025, Vinamilk phối hợp cùng Vườn quốc gia Mũi Cà Mau triển khai các hoạt động đánh giá hiện trạng Cánh rừng Net Zero, tuyên truyền và tập huấn cho cán bộ địa phương, người dân nhằm nâng cao nhận thức về bảo vệ rừng và môi trường.\n\n##### 2. Mini - campaign Find Your R\n\nNhằm đào tạo, truyền thông về các loại bao bì của Vinamilk và cách thức tái chế, tái sử dụng đúng.\n\n3. Tham gia vai trò cố vấn chiến lược  về phát triển bền vững trong cuộc thi sinh viên Đại học Ngoại thương",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 58,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 15,
+          "char_count": 481
+        },
+        "score": 0.6034204959869385,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p004:c04 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 4]\n- Phát triển bền vững (ESG): Từ cam kết đến hành động. Vinamilk cam kết thực hiện chương trình Net Zero 2050 với lộ trình cụ thể cho từng giai đoạn. Vinamilk là doanh nghiệp sữa đầu tiên tại Việt Nam có trang trại và nhà máy được chứng nhận trung hòa carbon theo chuẩn PAS 2060:2014. Các kết quả này tiếp tục được mở rộng trong 2025–2026 và việc thực thi chiến lược phát triển bền vững sẽ được áp dụng theo các thông lệ tốt hiện hành.\n\n[vnm-2025:p058:c03 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 58]\nNăm 2025, Vinamilk phối hợp cùng Vườn quốc gia Mũi Cà Mau triển khai các hoạt động đánh giá hiện trạng Cánh rừng Net Zero, tuyên truyền và tập huấn cho cán bộ địa phương, người dân nhằm nâng cao nhận thức về bảo vệ rừng và môi trường.\n\n##### 2. Mini - campaign Find Your R\n\nNhằm đào tạo, truyền thông về các loại bao bì của Vinamilk và cách thức tái chế, tái sử dụng đúng.\n\n3. Tham gia vai trò cố vấn chiến lược  về phát triển bền vững trong cuộc thi sinh viên Đại học Ngoại thương",
+    "context_ids": [
+      "vnm-2025:p004:c04",
+      "vnm-2025:p058:c03"
+    ],
+    "context_chars": 1096,
+    "elapsed_ms": 9.398599999258295,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-07",
+    "split": "dev",
+    "question": "Ai là Tổng Giám đốc của Vinamilk ký thông điệp mở đầu trong Báo cáo thường niên 2025?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "MAI KIỀU LIÊN Tổng Giám đốc"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p079:c05",
+        "text": "Năm 2025, Vinamilk công bố đầy đủ, kịp thời, công khai và minh bạch các báo cáo tài chính quý, bán niên và cả năm tại <u>https://www.vinamilk.com.vn/investor/reports/financial</u>\n\nVui lòng xem nội dung đã trình bày tại mục “A.7 Giao dịch cổ phiếu Vinamilk của Người nội bộ của Công ty và người có liên quan của Người nội bộ”.\n\n- <u>(20/06/2025) | Vinamilk</u> Tất cả báo cáo tài chính quý của Công ty đều được soát xét",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 79,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 419
+        },
+        "score": 0.7428573966026306,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p075:c02",
+        "text": "Trên cơ sở thống nhất ý kiến với Ban chấp hành Công đoàn cơ sở tại Công ty, Tổng Giám đốc đã ký ban hành bản điều chỉnh của Nội qui lao động vào ngày 16/09/2024 và đã được công bố công khai trên hệ thống thông tin nội bộ của Vinamilk để tất cả nhân viên có thể đọc tại mọi thời gian. Nội dung chính của Nội qui lao động quy định chi tiết các vấn đề sau đây:\n\nCông ty có cung cấp kênh thông tin liên lạc qua trang web và trong Báo cáo thường niên này của Công ty để các bên liên quan (ví dụ: khách hàng, nhà cung cấp, công chúng, v.v.) có thể sử dụng để nêu lên mối quan ngại và/hoặc khiếu nại về khả năng vi phạm quyền của họ. Cụ thể như sau:\n\n- Thời gian làm việc và thời gian nghỉ ngơi;",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 75,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 1,
+          "char_count": 688
+        },
+        "score": 0.7286720871925354,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p079:c03",
+        "text": "###### C.7.1 Báo cáo hàng quý\n\nVinamilk, với tư cách là công ty niêm yết trên HOSE, thuộc nhóm doanh nghiệp bắt buộc phải công bố Báo cáo tài chính quý theo quy định tại Thông tư 96/2020/TT-BTC. Theo quy định này, Vinamilk phải công bố Báo cáo tài chính quý hoặc Báo cáo tài chính quý đã được soát xét (nếu có) nhằm bảo đảm tuân thủ nghĩa vụ công bố thông tin trên thị trường chứng khoán về tính minh bạch, đầy đủ, kịp thời thông tin cho cổ đông, nhà đầu tư và các bên có liên quan.\n\nC.4 Công bố giao dịch với các bên liên quan (RPT) Vui lòng xem nội dung đã trình bày tại mục “A.8 Giao dịch với các bên liên quan của thành viên HĐQT và BĐH”.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 79,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 642
+        },
+        "score": 0.6970725059509277,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p079:c05 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 79]\nNăm 2025, Vinamilk công bố đầy đủ, kịp thời, công khai và minh bạch các báo cáo tài chính quý, bán niên và cả năm tại <u>https://www.vinamilk.com.vn/investor/reports/financial</u>\n\nVui lòng xem nội dung đã trình bày tại mục “A.7 Giao dịch cổ phiếu Vinamilk của Người nội bộ của Công ty và người có liên quan của Người nội bộ”.\n\n- <u>(20/06/2025) | Vinamilk</u> Tất cả báo cáo tài chính quý của Công ty đều được soát xét",
+    "context_ids": [
+      "vnm-2025:p079:c05"
+    ],
+    "context_chars": 509,
+    "elapsed_ms": 10.936300008324906,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-08",
+    "split": "dev",
+    "question": "Trong bảng danh mục từ viết tắt, ASEAN có ý nghĩa gì?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 3,
+        "evidence": "Các nước Đông Nam Á"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p003:c02",
+        "text": "|Tên viết tắt|Ý nghĩa|\n|---|---|\n|ASEAN|Các nước Đông Nam Á|\n|ADN|Bộ giá trị cốt lõi văn hóa doanh nghiệp mới, tập trung vào trách nhiệm, sự chủ động và<br>hiệu suất cao|\n|BCTC|Báo cáo tài chính|\n|BĐH|Ban điều hành|\n|CBTT|Công bố thông tin|\n|CCU|Chuỗi cung ứng|\n|CHDCND|Cộng hòa Dân chủ Nhân dân|\n|CLP|Dự án Nhãn sạch (Clean Label Project)|\n|CNG|Khí thiên nhiên nén|\n|CNTT|Công nghệ thông tin|\n|CTCP|Công ty cổ phần|\n|DCP|Chương trình đào tạo chuyên sâu Thành viên HĐQT|\n|ĐHĐCĐ|Đại hội đồng cổ đông|\n|EMS|Bộ giải pháp kinh doanh điện tử (E-Business Suite)|\n|ESG|Môi trường - Xã hội - Quản trị doanh nghiệp (Environment - Social - Governance)|\n|EU|Liên minh Châu Âu (European Union)|\n|FMCG|Ngành hàng tiêu dùng nhanh|\n|FSSC|Chứng nhận hệ thống an toàn thực phẩm (Food Safety System Certification)|\n|GĐĐH|Giám đốc điều hành|\n|GF|Green Farm|\n|GlobalG.A.P|Tiêu chuẩn Toàn cầu về Thực hành nông nghiệp tốt toàn cầu|\n|HĐQT|Hội đồng Quản trị|\n|HORECA|Khách sạn, Nhà hàng, Café (Hotel, Restaurant, Cafeteria)|\n|HOSE|Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh|\n|IFRS|Chuẩn mực báo cáo tài chính quốc tế|\n|IR|Quan hệ Nhà đầu tư (Investor Relations)|\n|JVL|Công ty TNHH Chăn nuôi Việt Nhật|\n|KNK|Khí nhà kính|\n|KSNB|Kiểm soát nội bộ|\n|KSX|Khối Sản xuất|\n|KTNB|Kiểm toán nội bộ|\n|LNST|Lợi nhuận sau thuế|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1295
+        },
+        "score": 0.6524032354354858,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p092:c02",
+        "text": "|Ký hiệu|Điểm thưởng theo Thẻ điểm QTCT ASEAN|Thực hành tại Vinamilk năm 2025|\n|---|---|---|\n|(B)A.1.1|Công ty có thực hiện bỏ phiếu điện tử an toàn theo<br>thời gian thực khi vắng mặt người tham dự tại các<br>cuộc họp ĐHĐCĐ không?|Có. Xem Điều 11,Quy chế tổ chức ĐHĐCĐ năm<br>2025 quy định về biểu quyết trực truyến.<br>Xem Điều 8, Quy chế tổ chức ĐHĐCĐ năm 2025 và<br>Giấy ủy quyền tham dự và biểu quyết tại ĐHĐCĐ<br>năm 2025.|\n|(B)A.2.1|Công ty có thông báo việc tổ chức ĐHĐCĐ (bao gồm<br>nội dung họp và các tài liệu giải trình) như công bố<br>cho HOSE ít nhất 28 ngày trước ngày tổ chức đại hội<br>không?|Có. Năm 2025, Công ty công bố ngày tổ chức đại<br>hội, hình thức tố chức và nội dung ĐHĐCĐ thường<br>niên năm 2025 vào ngày 10/02/2025. Tài liệu họp<br>ĐHĐCĐ thường niên năm 2025 cũng được Công<br>ty công bố vào ngày 28/03/2025, (tức ít nhất 28<br>ngày trước ngày đại hội 25/04/2025).|\n|(B)B.1.1|Công ty có công bố cách quản lý rủi ro và cơ hội liên<br>quan đến khí hậu không?|Có. Vui lòng xem Báo cáo quản lý rủi ro của Công<br>ty tại trang 186 - 197 của báo cáo này.|\n|(B)B.1.2|Công ty có công bố báo cáo phát triển bền vững<br>được đảm bảo bởi đơn vị độc lập bên ngoài không?|Có. Báo cáo phát triển bền vững của Công ty được<br>đảm bảo có giới hạn bới đơn vị kiểm toán độc lập<br>là Công ty TNHH PwC (Việt Nam).|\n|(B)B.1.3|Công ty có công bố kênh tương tác với các nhóm bên<br>liên quan và cách công ty phản hồi những lo ngại về<br>ESG của các bên liên quan không?|Có. Vui lòng xem nội dung công bố tại mục B.2.1/<br>B.2.2|\n|(B)B.1.4|Công ty có đơn vị/bộ phận/ủy ban nào chịu trách<br>nhiệm cụ thể trong việc quản lý các vấn đề phát triển<br>bền vững không?|Có. HĐQT giao UBCL phụ trách giám sát và<br>quản lý các vấn đề liên quan đến phát triển<br>bền vững của Công ty và Phòng QLHT – RR &<br>Pháp lý sẽ phụ trách chính trong việc triển khai và<br>thực thi trong toàn tập đoàn, đồng thời chủ trì việc<br>tổng hợp báo cáo và soạn thảo báo cáo PTBV của<br>Công ty hàng năm.<br>Điều 17.3 của Quy chế Nội bộ về QTCT.|\n|(B)B.1.5|Công ty có công bố hoạt động giám sát của hội đồng<br>quản trị đối với các rủi ro và cơ hội liên quan đến tính<br>bền vững không?|Có. Xem nội dung trình bày tại mục hoạt động của<br>UBCL.|\n|(B)B.1.6|Công ty có công bố mối liên hệ giữa thù lao của giám<br>đốc điều hành và ban quản lý cấp cao cũng như hiệu<br>suất phát triển bền vững trong năm trước không?|Chưa có.|\n|(B)B.1.7|Hệ thống tố cáo sai phạm của công ty có được quản<br>lý bởi các bên/tổ chức độc lập không?|Công ty giao nhiệm vụ này cho Phòng QLHT – RR<br>& Pháp lý phụ trách.|\n|(B)C.1.1|Báo cáo tài chính năm đã được kiểm toán có được<br>công bố trong vòng 60 ngày kể từ ngày kết thúc năm<br>tài chính không?|Có. Xembáo cáo tài chính năm đã được công bố.|\n|(B)D.1.1|Công ty có ít nhất một thành viên độc lập HĐQT là<br>nữ không?|Có. Bà Tiêu Yến Trinh là nữ thành viên độc lập<br>HĐQT.|\n|(B)D.1.2|Công ty có chính sách và công bố các mục tiêu có<br>thể đo lường được để thực hiện đa dạng hóa HĐQT<br>và báo cáo tiến độ đạt được các mục tiêu của mình<br>không?|Có. Nội dung này được trình bày tại mục D.4.6:<br>Tính đa dạng cao trong HĐQT.|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 92,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 3138
+        },
+        "score": 0.4542798399925232,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p093:c02",
+        "text": "|Ký hiệu|Điểm phạt theo Thẻ điểm QTCT ASEAN|Thực hành tại Vinamilk năm 2025|\n|---|---|---|\n|(P)A.1.1|Công ty đã không thực hiện hoặc bỏ qua việc đối xử<br>bình đẳng khi mua lại cổ phiếu cho tất cả các cổ đông<br>không?|Không có. Công ty luôn đối xử công bằng đối với<br>tất cả các cổ đông. Công ty không có phát sinh<br>giao dịch này không kỳ báo cáo.|\n|(P)A.2.1|Có bằng chứng nào cho thấy có rào cản ngăn cản<br>các cổ đông giao tiếp hoặc tham khảo ý kiến với các<br>cổ đông khác không?|Không có.|\n|(P)A.3.1|Công ty có đưa thêm nội dung chương trình nghị sự<br>nào chưa được công bố vào thông báo họp ĐHĐCĐ<br>không?|Không có. Tất cả nội dung chương trình họp thì Công<br>ty đều có công bố trước ngày họp theo quy định.|\n|(P)A.3.2|Chủ tịch HĐQT và Chủ tịch của tất cả các Ủy ban của<br>HĐQT và Tổng Giám đốc có vắng mặt tại ĐHĐCĐ gần<br>đây nhất không?|Không có. Tất cả 100% thành viên HĐQT và Tổng<br>Giám đốc đều tham dự ĐHĐCĐ thường niên 2025.<br>Nội dung này được ghi nhận và công bố trong<br>Biên bản họp ĐHĐCĐ thường niên năm 2025.|\n|(P)A.4.1<br>(P)A.4.2<br>(P)A.4.3|Những nội dung có tồn tại mà Công ty không có công<br>bố về:<br>•<br>Thỏa thuận với cổ đông?<br>•<br>Giới hạn quyền biểu quyết?<br>•<br>Có nhiềuquyền biểuquyết?|Không có. Công ty chỉ có tồn tại duy nhất một (01)<br>loại cổ phiếu phổ thông với quyền và nghĩa vụ như<br>nhau đối với tất cả các cổ đông. Công ty không có<br>tồn tại thỏa thuận với cổ đông và không có giới hạn<br>quyền biểu quyết hoặc có nhiều quyền biểu quyết.|\n|(P)A.5.1|Có phải cấu trúc sở hữu kim tự tháp và/hoặc cấu trúc<br>nắm giữ chéo là rõ ràng không?|Không có. Cơ cấu sở hữu của cổ đông tại Vinamilk<br>là rõ ràng, minh bạch và không có sở hữu chéo.<br>Danh sách 20 cổ đông lớn nhất cũng được công ty<br>công bố tại mục “Thông tin cổ phần và cổ đông”<br>tại trang 19 - 23 của báo cáo này.|\n|(P)A.6.1|Hệ thống tố cáo sai phạm của công ty có được quản<br>lý bởi các bên/tổ chức độc lập không?|Không có.|\n|(P)A.7.1|Có bất kỳ bản án nào về giao dịch nội gián liên quan<br>đến thành viên HĐQT, Ban Điều hành và nhân viên<br>của Công ty trong ba năm qua không?|Không có.|\n|(P)A.7.2|Có bất kỳ giao dịch với các bên liên quan nào có thể<br>được phân loại là hỗ trợ tài chính (tức là không được<br>thực hiện độc lập) cho các thực thể khác ngoài các<br>côngtycon do côngtymẹsở hữu hoàn toàn không?|Không có.|\n|(P)B.1.1|Có bất kỳ hành vi vi phạm luật nào liên quan đến lao<br>động/việc làm/người tiêu dùng/phá sản/thương mại/<br>cạnh tranh hoặc vấn đề môi trường không?|Không có.|\n|(P)B.2.1|Công ty có phải chịu bất kỳ lệnh trừng phạt nào từ cơ<br>quan quản lý vì không thông báo trong thời hạn quy<br>định đối với các sự kiện quan trọng không?|Không có.|\n|(P)B.2.2|Có bằng chứng nào cho thấy công ty đang tham gia<br>vào các hoạt động tẩy xanh không?|Không có.|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 93,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 2797
+        },
+        "score": 0.42724061012268066,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.803300017258152,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-09",
+    "split": "dev",
+    "question": "Mức tăng trưởng doanh thu thị trường nước ngoài của Vinamilk năm 2025 so với cùng kỳ năm trước là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "tiếp tục ghi nhận mức tăng trưởng 15% so với cùng kỳ năm trước"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p005:c04",
+        "text": "Doanh thu từ thị trường nước ngoài, bao gồm hoạt động xuất khẩu, chiếm 20% tổng doanh thu của năm 2025 và tiếp tục ghi nhận mức tăng trưởng 15% so với cùng kỳ năm trước. Các sản phẩm của Vinamilk đã đạt được các chứng nhận quốc tế uy tín như Bureau Veritas, Intertek và TUV, qua đó đáp ứng yêu cầu kiểm định nghiêm ngặt tại những thị trường khó tính như Mỹ, Nhật Bản, EU và Trung Đông. Nhờ vào chất lượng sản phẩm đạt chuẩn quốc tế cùng uy tín thương hiệu, Vinamilk đã duy trì và mở rộng mạng lưới xuất khẩu tới 65 thị trường trên toàn cầu.\n\n##### Triết lý “Để tâm Phụng sự”: Kim chỉ nam cho kỷ nguyên mới.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 606
+        },
+        "score": 0.8551140427589417,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p047:c07",
+        "text": "Bước sang giai đoạn phát triển mới, Vinamilk tiếp tục theo đuổi chiến lược phát triển thị trường nước ngoài theo hướng chọn lọc, hiệu quả và bền vững, gắn tăng trưởng tài chính với cam kết lâu dài về chất lượng, trách nhiệm và sự tin cậy. Với nền tảng được xây dựng trong 50 năm Để Tâm Phụng Sự, hoạt động xuất khẩu được kỳ vọng sẽ tiếp tục đóng vai trò quan trọng trong việc củng cố vị thế của Vinamilk và tạo dựng giá trị bền vững cho các bên liên quan.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 47,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 5,
+          "char_count": 455
+        },
+        "score": 0.7382151484489441,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p047:c02",
+        "text": "Trên hành trình đó, hoạt động xuất khẩu và phát triển thị trường nước ngoài không chỉ là động lực tăng trưởng về mặt tài chính, mà còn là minh chứng cho cam kết lâu dài của Vinamilk trong việc mang các giải pháp dinh dưỡng chất lượng cao của Việt Nam đến với người tiêu dùng toàn cầu một cách bền vững và có trách nhiệm.\n\nNăm 2025 ghi nhận kết quả tăng trưởng tích cực của mảng thị trường nước ngoài\n\nDoanh thu xuất khẩu thương mại đạt\n\n**6.546 16,5%**\n\ntỷ đồng so với cùng kỳ\n\nTăng trưởng\n\nTổng số lượng container xuất khẩu đạt\n\n## **4.200**\n\nTEUs",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 47,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 5,
+          "char_count": 548
+        },
+        "score": 0.7305896282196045,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p005:c04 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 5]\nDoanh thu từ thị trường nước ngoài, bao gồm hoạt động xuất khẩu, chiếm 20% tổng doanh thu của năm 2025 và tiếp tục ghi nhận mức tăng trưởng 15% so với cùng kỳ năm trước. Các sản phẩm của Vinamilk đã đạt được các chứng nhận quốc tế uy tín như Bureau Veritas, Intertek và TUV, qua đó đáp ứng yêu cầu kiểm định nghiêm ngặt tại những thị trường khó tính như Mỹ, Nhật Bản, EU và Trung Đông. Nhờ vào chất lượng sản phẩm đạt chuẩn quốc tế cùng uy tín thương hiệu, Vinamilk đã duy trì và mở rộng mạng lưới xuất khẩu tới 65 thị trường trên toàn cầu.\n\n##### Triết lý “Để tâm Phụng sự”: Kim chỉ nam cho kỷ nguyên mới.",
+    "context_ids": [
+      "vnm-2025:p005:c04"
+    ],
+    "context_chars": 695,
+    "elapsed_ms": 11.78169998456724,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-10",
+    "split": "dev",
+    "question": "Vinamilk định hướng kế thừa di sản của cuộc cách mạng nào từ thập niên 90?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 5,
+        "evidence": "kế thừa di sản của “Cuộc cách mạng trắng” từ thập niên 90"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p005:c07",
+        "text": "Năm 2026 đánh dấu kỷ niệm 50 năm thành lập và đồng Mặc dù còn nhiều thách thức phía trước, với nền tảng vững thời mở ra một giai đoạn phát triển mới đối với Vinamilk. chắc được xây dựng trong suốt hơn nửa thế kỷ cùng động Trọng tâm chiến lược là nâng cao nền tảng tăng trưởng cả lực tăng trưởng hiện hữu, chúng tôi tin tưởng vào sự phát về chất lượng và số lượng. Thay vì chỉ chú trọng vào các triển bền vững và lâu dài của Vinamilk. chỉ tiêu ngắn hạn, Vinamilk sẽ tập trung tối ưu hóa bốn trụ cột chiến lược trong giai đoạn 2022-2026, chuyển hóa các Thay mặt Ban Điều hành, tôi xin gửi lời tri ân sâu sắc đến kết quả ban đầu thành động lực cho sự phát triển bền vững Quý Cổ đông, Khách hàng, Đối tác đã luôn đồng hành cùng trong dài hạn. Đà tăng trưởng ghi nhận từ cuối năm 2025 chúng tôi. Đặc biệt, xin cảm ơn gần 10.000 cán bộ công được coi là tiền đề cho một chu kỳ hiện đại hóa và phát nhân viên – những người đã và đang ngày đêm “để tâm” triển ổn định, đồng thời tiếp tục khẳng định bản sắc riêng trong từng công việc nhỏ nhất để cùng nhau “phụng sự” của Vinamilk. cho một cuộc sống tốt đẹp hơn.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 1101
+        },
+        "score": 0.6410869359970093,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p052:c06",
+        "text": "sản phẩm dinh dưỡng đến hàng trăm nghìn trẻ em, người lao động và người dân yếu thế – góp phần bồi đắp những giá trị bền vững cho cộng đồng.\n\n### **I. Đồng hành cùng những dấu mốc lịch sử của đất nuớc**\n\n1. Hoạt động hướng đến ngày giải phóng miền nam, thống nhất đất nước (30/4/1975 – 30/4/2025)\n\nHướng tới kỷ niệm 50 năm Giải phóng miền Nam, thống nhất đất nước, Vinamilk đã tích cực đồng hành cùng các hoạt động trọng điểm mang ý nghĩa lịch sử – xã hội sâu sắc.\n\nVinamilk đã cung cấp hơn\n\n# **150.000**\n\nsản phẩm dinh dưỡng",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 52,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 6,
+          "char_count": 526
+        },
+        "score": 0.6223772764205933,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p052:c05",
+        "text": "# **Đồng hành cùng đất nuớc,** Trong năm, Vinamilk đã triển khai gần **phụng sự khát vọng Việt** hoạt động cộng đồng trên Năm 2025 đánh dấu những thời khắc đặc biệt, khi khắp cả nước đất nước hướng tới những dấu mốc lịch sử lớn, đồng **<u>80</u>**\n\nhoạt động cộng đồng trên khắp cả nước\n\nNăm 2025 đánh dấu những thời khắc đặc biệt, khi đất nước hướng tới những dấu mốc lịch sử lớn, đồng thời Vinamilk bước vào chặng đường chuẩn bị cho kỷ niệm 50 năm hình thành và phát triển. Trên hành trình ấy, các hoạt động CSR của Vinamilk tiếp tục trao tặng hơn được triển khai với tinh thần nhất quán: Phát triển doanh nghiệp gắn liền với sự phát triển của đất nước và hạnh phúc của con người.\n\n# **3.000.000**",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 52,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 6,
+          "char_count": 699
+        },
+        "score": 0.6213730573654175,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p005:c07 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 5]\nNăm 2026 đánh dấu kỷ niệm 50 năm thành lập và đồng Mặc dù còn nhiều thách thức phía trước, với nền tảng vững thời mở ra một giai đoạn phát triển mới đối với Vinamilk. chắc được xây dựng trong suốt hơn nửa thế kỷ cùng động Trọng tâm chiến lược là nâng cao nền tảng tăng trưởng cả lực tăng trưởng hiện hữu, chúng tôi tin tưởng vào sự phát về chất lượng và số lượng. Thay vì chỉ chú trọng vào các triển bền vững và lâu dài của Vinamilk. chỉ tiêu ngắn hạn, Vinamilk sẽ tập trung tối ưu hóa bốn trụ cột chiến lược trong giai đoạn 2022-2026, chuyển hóa các Thay mặt Ban Điều hành, tôi xin gửi lời tri ân sâu sắc đến kết quả ban đầu thành động lực cho sự phát triển bền vững Quý Cổ đông, Khách hàng, Đối tác đã luôn đồng hành cùng trong dài hạn. Đà tăng trưởng ghi nhận từ cuối năm 2025 chúng tôi. Đặc biệt, xin cảm ơn gần 10.000 cán bộ công được coi là tiền đề cho một chu kỳ hiện đại hóa và phát nhân viên – những người đã và đang ngày đêm “để tâm” triển ổn định, đồng thời tiếp tục khẳng định bản sắc riêng trong từng công việc nhỏ nhất để cùng nhau “phụng sự” của Vinamilk. cho một cuộc sống tốt đẹp hơn.",
+    "context_ids": [
+      "vnm-2025:p005:c07"
+    ],
+    "context_chars": 1190,
+    "elapsed_ms": 8.970900002168491,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-11",
+    "split": "dev",
+    "question": "Trong thông điệp của Chủ tịch HĐQT, Vinamilk củng cố và phát huy thành tựu trên bao nhiêu trụ cột chiến lược?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 4,
+        "evidence": "tiếp tục củng cố và phát huy thành tựu trên 4 trụ cột chiến lược"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p036:c10",
+        "text": "- Về hiệu quả hoạt động và tính độc lập của HĐQT, tôi ghi nhận HĐQT đã duy trì vai trò định hướng chiến lược, giám sát hoạt động điều hành và kiểm soát rủi ro ở mức phù hợp với quy mô và đặc thù hoạt động của Vinamilk. Vai trò phản biện của các Thành viên độc lập ngày càng rõ nét hơn, góp phần nâng cao chất lượng thảo luận và ra quyết định của HĐQT. Tuy nhiên, trong bối cảnh Vinamilk có quy mô lớn, hoạt động đa địa bàn và đa mô hình, mức độ phức tạp trong quản trị ngày càng tăng, HĐQT cần tiếp tục nâng cao chiều sâu thảo luận chiến lược và từng bước chuyển từ cơ chế giám sát mang tính hậu kiểm sang giám sát mang tính dự báo và cảnh báo sớm, đặc biệt đối với các rủi ro chiến lược, tài chính và vận hành tại các đơn vị ở nước ngoài.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "Báo cáo thường niên Vinamilk 2025",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 739
+        },
+        "score": 0.7553425431251526,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p064:c03",
+        "text": "Hiện nay, Vinamilk đang áp dụng các nguyên tắc Quản Trị Công Ty (“QTCT”) tốt của “Bộ Nguyên tắc QTCT theo Thông lệ Tốt nhất” do UBCKNN và IFC phát hành tháng 8/2019 dành cho công ty đại chúng tại Việt Nam. Ngoài ra, Vinamilk cũng áp dụng Thẻ điểm QTCT ASEAN (Phiên <u>bản 2, tháng 3/2024). Thẻ điểm QTCT ASEAN dựa trên các</u> thông lệ quốc tế tốt nhất, cụ thể là các nguyên tắc quản trị doanh nghiệp của Tổ chức Hợp tác và Phát triển Kinh tế (OECD) và được thực hiện bởi Diễn đàn Thị trường Vốn (ACMF) của các nước ASEAN. Những nguyên tắc này củng cố niềm tin từ các cổ đông, nhà đầu tư và các bên liên quan, đảm bảo quản lý hiệu quả và hợp lý, đồng thời thúc đẩy mạnh mẽ khả năng cạnh tranh của Vinamilk phù hợp với chiến lược phát triển bền vững của Công Ty.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 64,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 761
+        },
+        "score": 0.7172566652297974,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p036:c13",
+        "text": "Nhìn chung, HĐQT Vinamilk đã hoàn thành tốt vai trò quản trị và giám sát trong năm 2025. Tuy nhiên, trước yêu cầu phát triển bền vững và môi trường kinh doanh nhiều biến động, HĐQT cần tiếp tục nâng cao năng lực giám sát chiến lược, quản trị rủi ro và phát huy vai trò độc lập của các Thành viên độc lập HĐQT nhằm bảo vệ lợi ích dài hạn của Công ty và cổ đông.\n\nTrân trọng báo cáo Đại hội xem xét.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "Báo cáo thường niên Vinamilk 2025",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 397
+        },
+        "score": 0.7171944379806519,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p036:c10 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 36]\n- Về hiệu quả hoạt động và tính độc lập của HĐQT, tôi ghi nhận HĐQT đã duy trì vai trò định hướng chiến lược, giám sát hoạt động điều hành và kiểm soát rủi ro ở mức phù hợp với quy mô và đặc thù hoạt động của Vinamilk. Vai trò phản biện của các Thành viên độc lập ngày càng rõ nét hơn, góp phần nâng cao chất lượng thảo luận và ra quyết định của HĐQT. Tuy nhiên, trong bối cảnh Vinamilk có quy mô lớn, hoạt động đa địa bàn và đa mô hình, mức độ phức tạp trong quản trị ngày càng tăng, HĐQT cần tiếp tục nâng cao chiều sâu thảo luận chiến lược và từng bước chuyển từ cơ chế giám sát mang tính hậu kiểm sang giám sát mang tính dự báo và cảnh báo sớm, đặc biệt đối với các rủi ro chiến lược, tài chính và vận hành tại các đơn vị ở nước ngoài.",
+    "context_ids": [
+      "vnm-2025:p036:c10"
+    ],
+    "context_chars": 829,
+    "elapsed_ms": 11.703699972713366,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-12",
+    "split": "dev",
+    "question": "Trong danh mục thuật ngữ viết tắt, thuật ngữ Net Zero được giải nghĩa như thế nào?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 3,
+        "evidence": "Phát thải ròng bằng \"0\""
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p003:c03",
+        "text": "|Tên viết tắt|Ý nghĩa|\n|---|---|\n|MCM|Công ty Cổ phần Giống Bò sữa Mộc Châu|\n|MTV|Một thành viên|\n|Net Zero|Phát thải ròng bằng \"0\"|\n|NGK|Nước giải khát|\n|NQ|Nghị quyết|\n|OEE|Năng suất hoạt động của máy móc thiết bị|\n|PAS|Tiêu chuẩn công khai (Publicly Available Specification)|\n|PTBV|Phát triển bền vững|\n|QLRR|Quản lý rủi ro|\n|QTCT|Quản trị công ty|\n|R&D|Nghiên cứu và Phát triển|\n|ROE|LNST/Vốn chủ sở hữu|\n|ROA|LNST/Tổng tài sản|\n|SCIC|Tổng công ty Đầu tư và kinh doanh vốn Nhà Nước|\n|SGDCK|Sở Giao dịch Chứng khoán|\n|STNL|Sữa tươi nguyên liệu|\n|SXKD|Sản xuất kinh doanh|\n|TATX|Thức ăn thô xanh|\n|TEU|Đơn vị chuẩn dùng trong vận tải container|\n|TGĐ|Tổng Giám đốc|\n|TNHH|Trách nhiệm hữu hạn|\n|Tp.HCM|Thành phố Hồ Chí Minh|\n|TPM|Hệ thống bảo trì toàn diện|\n|TTBS|Trang trại bò sữa|\n|UBCKNN|Ủy ban Chứng khoán Nhà nước|\n|UBCL|Ủy ban Chiến lược|\n|UBKT|Ủy ban Kiểm toán|\n|UBLT|Ủy ban Lương thưởng|\n|UBNS|Ủy ban Nhân sự|\n|UVTW|Ủy viên Trung Ương|\n|VAS|Chuẩn mực kế toán Việt Nam (Vietnam Accounting Standards)|\n|Vinamilk/ VNM|Công ty Cổ phần Sữa Việt Nam|\n|VIOD|Viện Thành viên HĐQT Việt Nam|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 1089
+        },
+        "score": 0.38725417852401733,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p077:c12",
+        "text": "|a. Thù lao thành viên HĐQT||\n|---|---|\n|Thành viên điều hành|40|\n|Thành viên không điều hành|90|\n|Chủ tịch||",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 77,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 109
+        },
+        "score": 0.31406861543655396,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p092:c03",
+        "text": "|(B)D.2.1|UBNS có bao gồm toàn bộ các thành viên độc lập|Không. UBNS gồm 4 thành viên do Ông Nguyễn|\n|---|---|---|\n||không?|Hạnh Phúc (là thành viên HĐQT độc lập) làm Chủ|\n|||tịch UBNS. Ba (03) người còn lại là không phải là|\n|||thành viên độc lập, mà là thành viên không điều<br>hành.|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 92,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 286
+        },
+        "score": 0.2785407304763794,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p003:c03 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 3]\n|Tên viết tắt|Ý nghĩa|\n|---|---|\n|MCM|Công ty Cổ phần Giống Bò sữa Mộc Châu|\n|MTV|Một thành viên|\n|Net Zero|Phát thải ròng bằng \"0\"|\n|NGK|Nước giải khát|\n|NQ|Nghị quyết|\n|OEE|Năng suất hoạt động của máy móc thiết bị|\n|PAS|Tiêu chuẩn công khai (Publicly Available Specification)|\n|PTBV|Phát triển bền vững|\n|QLRR|Quản lý rủi ro|\n|QTCT|Quản trị công ty|\n|R&D|Nghiên cứu và Phát triển|\n|ROE|LNST/Vốn chủ sở hữu|\n|ROA|LNST/Tổng tài sản|\n|SCIC|Tổng công ty Đầu tư và kinh doanh vốn Nhà Nước|\n|SGDCK|Sở Giao dịch Chứng khoán|\n|STNL|Sữa tươi nguyên liệu|\n|SXKD|Sản xuất kinh doanh|\n|TATX|Thức ăn thô xanh|\n|TEU|Đơn vị chuẩn dùng trong vận tải container|\n|TGĐ|Tổng Giám đốc|\n|TNHH|Trách nhiệm hữu hạn|\n|Tp.HCM|Thành phố Hồ Chí Minh|\n|TPM|Hệ thống bảo trì toàn diện|\n|TTBS|Trang trại bò sữa|\n|UBCKNN|Ủy ban Chứng khoán Nhà nước|\n|UBCL|Ủy ban Chiến lược|\n|UBKT|Ủy ban Kiểm toán|\n|UBLT|Ủy ban Lương thưởng|\n|UBNS|Ủy ban Nhân sự|\n|UVTW|Ủy viên Trung Ương|\n|VAS|Chuẩn mực kế toán Việt Nam (Vietnam Accounting Standards)|\n|Vinamilk/ VNM|Công ty Cổ phần Sữa Việt Nam|\n|VIOD|Viện Thành viên HĐQT Việt Nam|",
+    "context_ids": [
+      "vnm-2025:p003:c03"
+    ],
+    "context_chars": 1178,
+    "elapsed_ms": 8.800299983704463,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-13",
+    "split": "dev",
+    "question": "HĐQT Vinamilk cam kết chính sách cổ tức cho cổ đông như thế nào?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 4,
+        "evidence": "Vinamilk cam kết duy trì chính sách cổ tức ổn định, công"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p004:c08",
+        "text": "##### Chính sách cổ tức cho cổ đông\n\nVinamilk cam kết duy trì chính sách cổ tức ổn định, công Thay mặt HĐQT, tôi xin gửi lời tri ân sâu sắc đến Quý Cổ bằng và minh bạch, trên cơ sở cân đối hài hòa giữa lợi đông, Nhà đầu tư và các bên có liên quan khác đã luôn nhuận chia sẻ và nhu cầu tái đầu tư cho tăng trưởng bền đồng hành cùng chúng tôi. vững. Mọi quyết định liên quan tuân thủ pháp luật, công bố thông tin đầy đủ, củng cố niềm tin và khẳng định cam kết dài hạn đối với Quý Cổ Đông.\n\n###### Trân trọng,\n\nNGUYỄN HẠNH PHÚC Chủ tịch Hội đồng Quản trị",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 4,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 551
+        },
+        "score": 0.8230608701705933,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "vnm-2025:p074:c05",
+        "text": "Các quyết định kinh doanh phải được dựa trên nền tảng giá trị đích thực của nó. Vinamilk không chấp nhận việc Để thực thi quy tắc này thì Công ty đã ban hành nội bộ các cho hoặc nhận quà, tiền hoặc các khoản lợi ích khác có giá tài liệu sau đây: trị nhằm ảnh hưởng đến quyết định kinh doanh của mình. • “Quy chế phòng chống gian lận, tham nhũng” số 5956/ Những đối tượng mà chúng ta nhắc đến là nhà cung cấp, QC-CTS.TGĐ.2018 do Tổng Giám đốc ký ban hành ngày khách hàng, nhà đầu tư…. Những hình thức mà chúng ta 02/11/2018. đề cập bao gồm cả những hình thức gián tiếp. Khái niệm • “Thủ tục tiếp nhận và xử lý thông tin khiếu nại, tố cáo “giá trị” sẽ được đề cập trong Quy định Cho nhận quà tặng gian lận, tham nhũng” số 056514/TT/11/KSNB/19 ngày của Vinamilk. 27/11/2019. • “Quyết định về thành lập ủy ban tuân thủ” thuộc Ban Không được sắp xếp để nhận quà, tiền hoặc các khoản Điều hành số 056958/TT/11/KSNB/19 ngày 27/11/2019. lợi khác dù dưới danh nghĩa người thân trong gia đình từ bất cứ cá nhân/tổ chức nào có mối quan hệ kinh doanh B.4.6 Bảo vệ quyền của các chủ nợ. hoặc muốn tạo mối quan hệ kinh doanh với Công ty. Trách nhiệm bảo vệ quyền của chủ nợ là một nguyên tắc quan trọng trong hoạt động tài chính và pháp lý nhằm Đừng bao giờ nhận quà hay dịch vụ nếu nó sẽ làm chúng ta đảm bảo sự công bằng và ổn định của thị trường. Công tổn hại danh tiếng hoặc thậm chí chỉ có thể mang tiếng xấu. ty cam kết luôn thực hiện đầy đủ nghĩa vụ thanh toán theo hợp đồng, cung cấp thông tin trung thực về tình hình tài Những món quà nhỏ và chiêu đãi thích hợp có thể giúp tăng chính và không được thực hiện hành vi gian lận hoặc tẩu cường mối quan hệ kinh doanh. Vinamilk không cấm các tán tài sản gây thiệt hại cho chủ nợ. Đồng thời, cơ quan trường hợp này và những trường hợp mà quà tặng được cho quản lý nhà nước và hệ thống pháp luật có trách nhiệm phép thực hiện là: ban hành quy định pháp luật rõ ràng, giám sát chặt chẽ và ▪ Quà tặng hoặc giải trí nhận từ khách hàng hoặc nhà xử lý nghiêm các hành vi vi phạm để bảo vệ quyền lợi hợp cung cấp không có ảnh hưởng hoặc không có biểu pháp của chủ nợ. Công ty áp dụng Bộ Quy Tắc Ứng Xử và hiện ảnh hưởng đến các quyết định trong công việc. áp dụng theo luật hiện hành có liên quan như Luật Doanh ▪ Phải có một mục đích công việc hợp lệ cho bất kỳ nghiệp, Luật Chứng khoán, Luật Dân sự, Luật Thương mại, quà tặng hoặc giải trí nào trong kinh doanh, nó phải Luật Tín dụng,… Việc thực hiện tốt trách nhiệm này không phù hợp với thuần phong mỹ tục và phải tuân thủ chỉ bảo vệ quyền lợi của chủ nợ mà còn góp phần duy trì pháp luật, phải tuân thủ Chính sách cho nhận quà niềm tin, sự minh bạch và phát triển bền vững của Công ty.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 74,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 0,
+          "char_count": 2673
+        },
+        "score": 0.699785590171814,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p079:c03",
+        "text": "###### C.7.1 Báo cáo hàng quý\n\nVinamilk, với tư cách là công ty niêm yết trên HOSE, thuộc nhóm doanh nghiệp bắt buộc phải công bố Báo cáo tài chính quý theo quy định tại Thông tư 96/2020/TT-BTC. Theo quy định này, Vinamilk phải công bố Báo cáo tài chính quý hoặc Báo cáo tài chính quý đã được soát xét (nếu có) nhằm bảo đảm tuân thủ nghĩa vụ công bố thông tin trên thị trường chứng khoán về tính minh bạch, đầy đủ, kịp thời thông tin cho cổ đông, nhà đầu tư và các bên có liên quan.\n\nC.4 Công bố giao dịch với các bên liên quan (RPT) Vui lòng xem nội dung đã trình bày tại mục “A.8 Giao dịch với các bên liên quan của thành viên HĐQT và BĐH”.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 79,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 642
+        },
+        "score": 0.6923925876617432,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p004:c08 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 4]\n##### Chính sách cổ tức cho cổ đông\n\nVinamilk cam kết duy trì chính sách cổ tức ổn định, công Thay mặt HĐQT, tôi xin gửi lời tri ân sâu sắc đến Quý Cổ bằng và minh bạch, trên cơ sở cân đối hài hòa giữa lợi đông, Nhà đầu tư và các bên có liên quan khác đã luôn nhuận chia sẻ và nhu cầu tái đầu tư cho tăng trưởng bền đồng hành cùng chúng tôi. vững. Mọi quyết định liên quan tuân thủ pháp luật, công bố thông tin đầy đủ, củng cố niềm tin và khẳng định cam kết dài hạn đối với Quý Cổ Đông.\n\n###### Trân trọng,\n\nNGUYỄN HẠNH PHÚC Chủ tịch Hội đồng Quản trị",
+    "context_ids": [
+      "vnm-2025:p004:c08"
+    ],
+    "context_chars": 640,
+    "elapsed_ms": 8.45839999965392,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-14",
+    "split": "dev",
+    "question": "Trong danh mục từ viết tắt của Vinamilk, MTV có nghĩa là gì?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 3,
+        "evidence": "Một thành viên"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p077:c12",
+        "text": "|a. Thù lao thành viên HĐQT||\n|---|---|\n|Thành viên điều hành|40|\n|Thành viên không điều hành|90|\n|Chủ tịch||",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 77,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 0,
+          "char_count": 109
+        },
+        "score": 0.2565935254096985,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p088:c02",
+        "text": "|Stt|Họ và tên|Chức vụ chuyên môn tại Vinamilk|\n|---|---|---|\n|1|Ông Lê Đức Anh|Trưởng ban Hợp tác đầu tư|\n|2|Ông Trần Chí Sơn|Trưởng Bộ phận Tài chính<br>Người phụ trách Quản trị Công ty|\n|3|Bà Lê Quang Thanh Trúc|Giám đốc Quản lý hoạt động các đơn vị thành viên|\n|4|Ông Đồng Quang Trung<br>(Đến 31/12/2025)|Trưởng ban Quan hệ nhà đầu tư (IR)|",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 88,
+        "metadata": {
+          "section": "Báo cáo quản trị công ty",
+          "type": "table",
+          "image_count": 1,
+          "char_count": 344
+        },
+        "score": 0.21794205904006958,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p009:c02",
+        "text": "|1. Các bên liên quan bên trong||\n|---|---|\n|• Cổ đông: tất cả các cổ đông hiện hữu của<br>Công ty.|Ban Quan hệ nhà đầu tư<br>• Ông Trần Chí Sơn|\n|• Hội đồng Quản trị và Ban Điều hành.|Thư ký Công ty:<br>• Ông Lê Đức Anh<br>• Ông Trần Chí Sơn<br>• Bà Lê Quang Thanh Trúc|\n|• Nhân viên: Người lao động khác trong<br>Công ty.|• Ông Nguyễn Tường Huy: Giám đốc Nhân sự<br>• Ông Nguyễn Trung: Chủ tịch Công đoàn Công ty<br>_(Theo chức năng quản lý chuyên môn do Tổng Giám đốc quyết định)_|\n|2. Các bên liên quan bên ngoài||",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 9,
+        "metadata": {
+          "section": "Thông Tin Chung",
+          "type": "table",
+          "image_count": 1,
+          "char_count": 518
+        },
+        "score": 0.21189382672309875,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p077:c12 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 77]\n|a. Thù lao thành viên HĐQT||\n|---|---|\n|Thành viên điều hành|40|\n|Thành viên không điều hành|90|\n|Chủ tịch||\n\n[vnm-2025:p088:c02 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 88]\n|Stt|Họ và tên|Chức vụ chuyên môn tại Vinamilk|\n|---|---|---|\n|1|Ông Lê Đức Anh|Trưởng ban Hợp tác đầu tư|\n|2|Ông Trần Chí Sơn|Trưởng Bộ phận Tài chính<br>Người phụ trách Quản trị Công ty|\n|3|Bà Lê Quang Thanh Trúc|Giám đốc Quản lý hoạt động các đơn vị thành viên|\n|4|Ông Đồng Quang Trung<br>(Đến 31/12/2025)|Trưởng ban Quan hệ nhà đầu tư (IR)|",
+    "context_ids": [
+      "vnm-2025:p077:c12",
+      "vnm-2025:p088:c02"
+    ],
+    "context_chars": 635,
+    "elapsed_ms": 8.909399999538437,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-15",
+    "split": "dev",
+    "question": "Chiến dịch nào của Vinamilk tiếp tục lan tỏa sức sống mới với diện mạo bao bì và hình ảnh trẻ hóa?",
+    "gold": [
+      {
+        "source_id": "vnm-ar-2025",
+        "page": 4,
+        "evidence": "Chiến dịch tái định vị thương hiệu tiếp tục lan tỏa sức sống mới"
+      }
+    ],
+    "results": [
+      {
+        "id": "vnm-2025:p046:c09",
+        "text": "Những dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 chính là bước chuẩn bị quan trọng để Vinamilk sẵn sàng bước vào cột mốc lịch sử kỷ niệm 50 năm thành lập. Mọi nỗ lực nâng tầm danh mục sản phẩm cao cấp đến việc hiện đại hóa hệ thống phân phối đều tập trung vào mục tiêu: phụng sự sức khỏe và niềm tin vủa người tiêu dùng bằng tất cả tâm huyết. Thành quả của năm 2025 không chỉ khẳng định sức mạnh nội tại mà còn tạo đà vững chắc để Vinamilk tiếp tục viết tiếp hành trình nửa thế kỷ kiên tạo giá trị, giữ vững vị thế thưởng hiệu dinh dưỡng hàng đầu trong lòng mỗi gia đình Việt.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 46,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hànhBáo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 584
+        },
+        "score": 0.6632821559906006,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p005:c07",
+        "text": "Năm 2026 đánh dấu kỷ niệm 50 năm thành lập và đồng Mặc dù còn nhiều thách thức phía trước, với nền tảng vững thời mở ra một giai đoạn phát triển mới đối với Vinamilk. chắc được xây dựng trong suốt hơn nửa thế kỷ cùng động Trọng tâm chiến lược là nâng cao nền tảng tăng trưởng cả lực tăng trưởng hiện hữu, chúng tôi tin tưởng vào sự phát về chất lượng và số lượng. Thay vì chỉ chú trọng vào các triển bền vững và lâu dài của Vinamilk. chỉ tiêu ngắn hạn, Vinamilk sẽ tập trung tối ưu hóa bốn trụ cột chiến lược trong giai đoạn 2022-2026, chuyển hóa các Thay mặt Ban Điều hành, tôi xin gửi lời tri ân sâu sắc đến kết quả ban đầu thành động lực cho sự phát triển bền vững Quý Cổ đông, Khách hàng, Đối tác đã luôn đồng hành cùng trong dài hạn. Đà tăng trưởng ghi nhận từ cuối năm 2025 chúng tôi. Đặc biệt, xin cảm ơn gần 10.000 cán bộ công được coi là tiền đề cho một chu kỳ hiện đại hóa và phát nhân viên – những người đã và đang ngày đêm “để tâm” triển ổn định, đồng thời tiếp tục khẳng định bản sắc riêng trong từng công việc nhỏ nhất để cùng nhau “phụng sự” của Vinamilk. cho một cuộc sống tốt đẹp hơn.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "Mở đầu",
+          "type": "text",
+          "image_count": 2,
+          "char_count": 1101
+        },
+        "score": 0.6558600664138794,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "vnm-2025:p059:c03",
+        "text": "Các hoạt động cộng đồng của Vinamilk 2025 không chỉ được đo bằng số lượng hoạt động hay sản phẩm trao tặng, mà còn được khắc họa qua cách Vinamilk đồng hành cùng đất nước, sẻ chia với cộng đồng và đầu tư cho tương lai bền vững. Trên hành trình phụng sự khát vọng Việt, Vinamilk tiếp tục kiên định với triết lý phát triển gắn tăng trưởng doanh nghiệp với trách nhiệm xã hội, để mỗi bước tiến của doanh nghiệp luôn song hành cùng sự phát triển của đất nước.",
+        "source_id": "vnm-ar-2025",
+        "source": "data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+        "page": 59,
+        "metadata": {
+          "section": "Báo cáo của Ban Điều hành",
+          "type": "text",
+          "image_count": 11,
+          "char_count": 455
+        },
+        "score": 0.6499369740486145,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[vnm-2025:p046:c09 | data/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf | page 46]\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 chính là bước chuẩn bị quan trọng để Vinamilk sẵn sàng bước vào cột mốc lịch sử kỷ niệm 50 năm thành lập. Mọi nỗ lực nâng tầm danh mục sản phẩm cao cấp đến việc hiện đại hóa hệ thống phân phối đều tập trung vào mục tiêu: phụng sự sức khỏe và niềm tin vủa người tiêu dùng bằng tất cả tâm huyết. Thành quả của năm 2025 không chỉ khẳng định sức mạnh nội tại mà còn tạo đà vững chắc để Vinamilk tiếp tục viết tiếp hành trình nửa thế kỷ kiên tạo giá trị, giữ vững vị thế thưởng hiệu dinh dưỡng hàng đầu trong lòng mỗi gia đình Việt.",
+    "context_ids": [
+      "vnm-2025:p046:c09"
+    ],
+    "context_chars": 674,
+    "elapsed_ms": 9.759700013091788,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]
