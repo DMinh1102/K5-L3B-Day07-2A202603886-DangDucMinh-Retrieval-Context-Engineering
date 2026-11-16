@@ -152,3 +152,91 @@ class HybridRetriever:
                 "strategy": "hybrid_rrf"
             })
         return fused_results
+
+
+class WeightedHybridRetriever:
+    """Option 1: Adaptive Weighted Hybrid RRF with Entity/Lexical Prioritization.
+    Boosts BM25 weight when queries contain proper nouns, capitalized entities, or quotes.
+    """
+    def __init__(self, dense_retriever: DenseRetriever, bm25_retriever: BM25Retriever, rrf_k: int = 30):
+        self.dense = dense_retriever
+        self.bm25 = bm25_retriever
+        self.rrf_k = rrf_k
+
+    def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
+        candidate_k = max(top_k * 4, 20)
+        dense_results = self.dense.search(query, filters=filters, top_k=candidate_k)
+        bm25_results = self.bm25.search(query, filters=filters, top_k=candidate_k)
+
+        # Detect entity / proper noun cues (capitalized words in query, quotes)
+        has_entities = bool(re.search(r'[A-ZÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐ]', query))
+        w_bm25 = 0.88 if has_entities else 0.65
+        w_dense = 0.12 if has_entities else 0.35
+
+        rrf_scores: dict[str, float] = {}
+        chunk_map: dict[str, dict[str, Any]] = {}
+
+        for rank, item in enumerate(dense_results):
+            cid = item["id"]
+            chunk_map[cid] = item
+            rrf_scores[cid] = rrf_scores.get(cid, 0.0) + w_dense / (self.rrf_k + rank + 1)
+
+        for rank, item in enumerate(bm25_results):
+            cid = item["id"]
+            chunk_map[cid] = item
+            rrf_scores[cid] = rrf_scores.get(cid, 0.0) + w_bm25 / (self.rrf_k + rank + 1)
+
+        sorted_cids = sorted(rrf_scores.keys(), key=lambda cid: -rrf_scores[cid])
+        fused = []
+        for cid in sorted_cids[:top_k]:
+            fused.append({
+                **chunk_map[cid],
+                "score": float(rrf_scores[cid]),
+                "strategy": "weighted_hybrid"
+            })
+        return fused
+
+
+class TwoStageRetriever:
+    """Option 2: Two-Stage Retrieval (Candidate Retrieval N=15 -> Cross-Phrase Reranker down to Top-K).
+    Fetches a broader pool (Top 15) and uses phrase matching, n-gram overlap & coverage to rerank.
+    """
+    def __init__(self, base_retriever: Any, candidate_k: int = 15):
+        self.base = base_retriever
+        self.candidate_k = candidate_k
+
+    def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
+        candidates = self.base.search(query, filters=filters, top_k=max(self.candidate_k, top_k * 3))
+        if not candidates:
+            return []
+
+        q_terms = normalize_text(query)
+        q_tokens = set(q_terms)
+        bigrams = [" ".join(q_terms[i:i+2]) for i in range(len(q_terms)-1)]
+        trigrams = [" ".join(q_terms[i:i+3]) for i in range(len(q_terms)-2)]
+
+        reranked = []
+        for c in candidates:
+            text_norm = " ".join(normalize_text(c["text"]))
+            base_score = float(c.get("score", 0.0))
+
+            phrase_bonus = 0.0
+            for tri in trigrams:
+                if tri in text_norm:
+                    phrase_bonus += 2.5
+            for bi in bigrams:
+                if bi in text_norm:
+                    phrase_bonus += 1.2
+
+            c_tokens = set(normalize_text(c["text"]))
+            coverage = len(q_tokens.intersection(c_tokens)) / max(len(q_tokens), 1)
+
+            final_score = coverage * 2.0 + phrase_bonus * 1.5 + base_score
+            reranked.append({
+                **c,
+                "score": final_score,
+                "strategy": "two_stage_rerank"
+            })
+
+        reranked.sort(key=lambda x: -x["score"])
+        return reranked[:top_k]

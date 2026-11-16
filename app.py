@@ -20,7 +20,7 @@ load_dotenv()
 
 from starter.baseline import pack_context
 from starter.agentic import run_agent
-from src.retriever import DenseRetriever, BM25Retriever, HybridRetriever
+from src.retriever import DenseRetriever, BM25Retriever, HybridRetriever, WeightedHybridRetriever, TwoStageRetriever
 from src.agent import GeminiController
 
 # Global singletons
@@ -31,6 +31,8 @@ dense_retriever = DenseRetriever(
 )
 bm25_retriever = BM25Retriever(chunks_path=BASE_DIR / "data/chunks.json")
 hybrid_retriever = HybridRetriever(dense_retriever, bm25_retriever, rrf_k=30)
+weighted_hybrid_retriever = WeightedHybridRetriever(dense_retriever, bm25_retriever, rrf_k=30)
+two_stage_retriever = TwoStageRetriever(hybrid_retriever, candidate_k=15)
 agent_controller = GeminiController(model_name="gemini-3.5-flash-lite")
 
 chunks_data = json.loads((BASE_DIR / "data/chunks.json").read_text(encoding="utf-8"))
@@ -87,7 +89,9 @@ HTML_PAGE = """<!DOCTYPE html>
         <div class="flex items-center space-x-2">
           <label class="text-slate-400">Phương pháp:</label>
           <select id="strategySelect" class="bg-slate-800 border border-slate-700 rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-blue-500">
-            <option value="hybrid" selected>Hybrid RRF (Dense + BM25)</option>
+            <option value="two_stage" selected>Two-Stage Rerank (Top 15 -> Top K)</option>
+            <option value="weighted_hybrid">Weighted RRF (Ưu tiên Thực thể)</option>
+            <option value="hybrid">Hybrid RRF (Dense + BM25 Chuẩn)</option>
             <option value="bm25">Lexical BM25</option>
             <option value="dense">Dense Vector (FastEmbed)</option>
           </select>
@@ -397,7 +401,11 @@ class RequestHandler(BaseHTTPRequestHandler):
                 budget = int(body.get("budget", 3500))
                 top_k = int(body.get("top_k", 5))
 
-                if strategy == "bm25":
+                if strategy == "two_stage":
+                    retriever = two_stage_retriever
+                elif strategy == "weighted_hybrid":
+                    retriever = weighted_hybrid_retriever
+                elif strategy == "bm25":
                     retriever = bm25_retriever
                 elif strategy == "dense":
                     retriever = dense_retriever
